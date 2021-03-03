@@ -1,0 +1,51 @@
+2021-03-02,21:32:52 [INFO] (app.py:app:242): Parsing config file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server/app/../common/default.conf
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter port set to "9004" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter server_version set to "2.3.1" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter evaluate_timeout set to "30" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter upload_dir set to "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tmp/query_objects" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter transfer_protocol set to "http" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:210): Parameter certificate_file is not set
+2021-03-02,21:32:52 [DEBUG] (app.py:app:210): Parameter key_file is not set
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter state_file_path set to "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter static_path set to "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server/static" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:210): Parameter TABPY_PWD_FILE is not set
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter log_request_context set to "false" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:203): Parameter max_request_size_in_mb set to "100" from default value
+2021-03-02,21:32:52 [DEBUG] (app.py:app:425): File /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server/state.ini not found, creating from template /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server/state.ini.template...
+2021-03-02,21:32:52 [INFO] (app.py:app:431): Loading state from state file /Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server/state.ini
+2021-03-02,21:32:52 [DEBUG] (app.py:app:309): Static pages folder set to "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/tabpy/tabpy_server/static"
+2021-03-02,21:32:52 [INFO] (app.py:app:328): Password file is not specified: Authentication is not enabled
+2021-03-02,21:32:52 [INFO] (app.py:app:343): Call context logging is disabled
+2021-03-02,21:32:52 [INFO] (app.py:app:124): Initializing TabPy...
+2021-03-02,21:32:52 [DEBUG] (selector_events.py:selector_events:59): Using selector: KqueueSelector
+2021-03-02,21:32:52 [INFO] (callbacks.py:callbacks:43): Initializing TabPy Server...
+2021-03-02,21:32:52 [DEBUG] (state.py:state:613): Loading option 'None' from section [Query Objects Service Versions]...
+2021-03-02,21:32:52 [DEBUG] (state.py:state:635): Returning value '[]'
+2021-03-02,21:32:52 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2021-03-02,21:32:52 [INFO] (app.py:app:128): Done initializing TabPy.
+2021-03-02,21:32:52 [INFO] (app.py:app:82): Setting max request size to 104857600 bytes
+2021-03-02,21:32:52 [INFO] (callbacks.py:callbacks:64): Initializing models...
+2021-03-02,21:32:52 [DEBUG] (state.py:state:613): Loading option 'None' from section [Query Objects Service Versions]...
+2021-03-02,21:32:52 [DEBUG] (state.py:state:635): Returning value '[]'
+2021-03-02,21:32:52 [DEBUG] (state.py:state:148): Collected endpoints: {}
+2021-03-02,21:32:52 [INFO] (app.py:app:105): Web service listening on port 9004
+2021-03-02,21:35:14 [DEBUG] (base_handler.py:base_handler:115): Checking if need to handle authentication
+2021-03-02,21:35:14 [DEBUG] (base_handler.py:base_handler:115): Handling authentication
+2021-03-02,21:35:14 [INFO] (base_handler.py:base_handler:115): Authentication is not a required feature for API "v1"
+2021-03-02,21:35:14 [DEBUG] (base_handler.py:base_handler:115): Checking request headers for authentication data
+2021-03-02,21:35:14 [INFO] (base_handler.py:base_handler:115): Authorization header not found
+2021-03-02,21:35:14 [DEBUG] (base_handler.py:base_handler:115): authentication not required, username and password are none
+2021-03-02,21:35:14 [DEBUG] (state.py:state:511): Collecting Access-Control-Allow-Origin from state file ...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Origin' from section [Service Info]...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:635): Returning value ''
+2021-03-02,21:35:14 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Headers' from section [Service Info]...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:635): Returning value ''
+2021-03-02,21:35:14 [DEBUG] (state.py:state:613): Loading option 'Access-Control-Allow-Methods' from section [Service Info]...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:635): Returning value ''
+2021-03-02,21:35:14 [DEBUG] (state.py:state:613): Loading option 'Description' from section [Service Info]...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:635): Returning value ''
+2021-03-02,21:35:14 [DEBUG] (state.py:state:613): Loading option 'Creation Time' from section [Service Info]...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:635): Returning value '0'
+2021-03-02,21:35:14 [DEBUG] (state.py:state:613): Loading option 'Name' from section [Service Info]...
+2021-03-02,21:35:14 [DEBUG] (state.py:state:635): Returning value 'TabPy Server'
+2021-03-02,21:35:14 [INFO] (web.py:web:2246): 200 GET /info (::1) 6.09ms
